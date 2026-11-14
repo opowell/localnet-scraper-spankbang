@@ -1,0 +1,16 @@
+{
+  "scrapers": [
+    {
+      "name": "SpankBang",
+      "urlPattern": "spankbang.",
+      "searchUrl": "https://spankbang.party/s/{term}/"
+    }
+  ],
+  "file": "spankbang.js",
+  "videos": [
+    {
+      "match": "^https://spankbang\\.[a-z]+/\\w+/embed/$",
+      "embed": true
+    }
+  ]
+}
